@@ -1,0 +1,260 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /home/shaocong/.nvm/versions/node/v5.0.0/bin/node /home/shaocong/.nvm/versions/node/v5.0.0/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     linux
+[debug] Node Version: v5.0.0
+[debug] Time:         Thu Apr 13 2017 13:53:33 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/O-i016Ob2mAC6e40346-I_DneuJeHZ4dWvZRKArtI1M',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Apr 13 2017 13:53:33 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 13:53:33 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-firebase-d909d/tokens  
+ Thu Apr 13 2017 13:53:35 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/shaocong/Desktop/Assignment3/johnny-five_with_firebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 13:53:36 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/573106322093/clients/_:getWebAppConfig  
+ Thu Apr 13 2017 13:53:37 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /home/shaocong/.nvm/versions/node/v5.0.0/bin/node /home/shaocong/.nvm/versions/node/v5.0.0/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     linux
+[debug] Node Version: v5.0.0
+[debug] Time:         Thu Apr 13 2017 16:19:40 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/O-i016Ob2mAC6e40346-I_DneuJeHZ4dWvZRKArtI1M',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Apr 13 2017 16:19:40 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 16:19:41 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-firebase-d909d/tokens  
+ Thu Apr 13 2017 16:19:42 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/shaocong/Desktop/Assignment3/johnny-five_with_firebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 16:19:43 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/573106322093/clients/_:getWebAppConfig  
+ Thu Apr 13 2017 16:19:45 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /home/shaocong/.nvm/versions/node/v5.0.0/bin/node /home/shaocong/.nvm/versions/node/v5.0.0/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     linux
+[debug] Node Version: v5.0.0
+[debug] Time:         Thu Apr 13 2017 16:26:01 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 16:26:01 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-firebase-d909d/tokens  
+ Thu Apr 13 2017 16:26:03 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/shaocong/Desktop/Assignment3/johnny-five_with_firebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 16:26:04 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /home/shaocong/.nvm/versions/node/v5.0.0/bin/node /home/shaocong/.nvm/versions/node/v5.0.0/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     linux
+[debug] Node Version: v5.0.0
+[debug] Time:         Thu Apr 13 2017 17:00:46 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:00:46 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-firebase-d909d/tokens  
+ Thu Apr 13 2017 17:00:48 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/shaocong/Desktop/Assignment3/johnny-five_with_firebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:00:49 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/573106322093/clients/_:getWebAppConfig  
+ Thu Apr 13 2017 17:00:51 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /home/shaocong/.nvm/versions/node/v5.0.0/bin/node /home/shaocong/.nvm/versions/node/v5.0.0/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     linux
+[debug] Node Version: v5.0.0
+[debug] Time:         Thu Apr 13 2017 17:03:23 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:03:23 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-firebase-d909d/tokens  
+ Thu Apr 13 2017 17:03:25 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/shaocong/Desktop/Assignment3/johnny-five_with_firebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:03:26 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/573106322093/clients/_:getWebAppConfig  
+ Thu Apr 13 2017 17:03:27 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /home/shaocong/.nvm/versions/node/v5.0.0/bin/node /home/shaocong/.nvm/versions/node/v5.0.0/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     linux
+[debug] Node Version: v5.0.0
+[debug] Time:         Thu Apr 13 2017 17:11:45 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/O-i016Ob2mAC6e40346-I_DneuJeHZ4dWvZRKArtI1M',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Apr 13 2017 17:11:45 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:11:46 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-firebase-d909d/tokens  
+ Thu Apr 13 2017 17:11:47 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/shaocong/Desktop/Assignment3/johnny-five_with_firebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:11:49 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/573106322093/clients/_:getWebAppConfig  
+ Thu Apr 13 2017 17:11:50 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /home/shaocong/.nvm/versions/node/v5.0.0/bin/node /home/shaocong/.nvm/versions/node/v5.0.0/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     linux
+[debug] Node Version: v5.0.0
+[debug] Time:         Thu Apr 13 2017 17:12:23 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:12:23 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-firebase-d909d/tokens  
+ Thu Apr 13 2017 17:12:25 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/shaocong/Desktop/Assignment3/johnny-five_with_firebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:12:25 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/573106322093/clients/_:getWebAppConfig  
+ Thu Apr 13 2017 17:12:27 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /home/shaocong/.nvm/versions/node/v5.0.0/bin/node /home/shaocong/.nvm/versions/node/v5.0.0/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     linux
+[debug] Node Version: v5.0.0
+[debug] Time:         Thu Apr 13 2017 17:23:02 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:23:02 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-firebase-d909d/tokens  
+ Thu Apr 13 2017 17:23:04 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/shaocong/Desktop/Assignment3/johnny-five_with_firebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:23:05 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/573106322093/clients/_:getWebAppConfig  
+ Thu Apr 13 2017 17:23:07 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /home/shaocong/.nvm/versions/node/v5.0.0/bin/node /home/shaocong/.nvm/versions/node/v5.0.0/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     linux
+[debug] Node Version: v5.0.0
+[debug] Time:         Thu Apr 13 2017 17:23:39 GMT+1000 (AEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:23:39 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-firebase-d909d/tokens  
+ Thu Apr 13 2017 17:23:40 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/shaocong/Desktop/Assignment3/johnny-five_with_firebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-firebase-d909d  
+ Thu Apr 13 2017 17:23:41 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/573106322093/clients/_:getWebAppConfig  
+ Thu Apr 13 2017 17:23:43 GMT+1000 (AEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:5000

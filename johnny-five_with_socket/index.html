@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+
+<body>
+<button type="button" id = "test">Test</button>
+<p>send time</p>
+<p id = "send_time"></p>
+<p>received time</p>
+<p id = "received_time"></p>
+<p>response time</p>
+<p id = "response_time"></p>
+</body>
+
+<script>
+    var received_time;
+    var send_time;
+    var response_time;
+    document.getElementById("received_time").innerHTML = received_time;
+    document.getElementById("send_time").innerHTML = send_time;
+    document.getElementById("response_time").innerHTML = response_time;
+</script>
+
+<script>
+    $(function(){
+        var client = io.connect('http://localhost:8080');
+        client.on("emit_time", function(data){
+            send_time = data.emit_time
+            received_time = Date.now();
+            document.getElementById("received_time").innerHTML = received_time;
+            document.getElementById("send_time").innerHTML = send_time;
+            response_time = received_time - send_time;
+            document.getElementById("response_time").innerHTML = response_time;
+        });
+        $("#test").click(function(){
+            client.emit("test");
+        });
+    });
+
+
+</script>

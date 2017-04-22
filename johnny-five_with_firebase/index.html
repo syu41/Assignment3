@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+
+<body>
+<button type="button" id = "test">Test</button>
+<button type="button" id = "endtest">EndTest</button>
+<p>send time</p>
+<p id = "send_time"></p>
+<p>received time</p>
+<p id = "received_time"></p>
+<p>response time</p>
+<p id = "time_diff"></p>
+</body>
+
+<script>
+    var received_time;
+    var send_time;
+    var time_diff
+
+</script>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDxdT8C2JwlVC3aWXvG5uwe8VoiAzjuiFM",
+    authDomain: "test-firebase-d909d.firebaseapp.com",
+    databaseURL: "https://test-firebase-d909d.firebaseio.com",
+    projectId: "test-firebase-d909d",
+    storageBucket: "test-firebase-d909d.appspot.com",
+    messagingSenderId: "573106322093"
+  };
+  firebase.initializeApp(config);
+  db = firebase.database();
+
+  var testsRef = db.ref("/Tests");
+  testsRef.on("value", function(snapshot){
+      var tests = snapshot.val();
+      send_time = tests['send_time'];
+      document.getElementById("send_time").innerHTML = send_time;
+      received_time = Date.now();
+      document.getElementById("received_time").innerHTML = received_time;
+      time_diff = received_time - send_time;
+    document.getElementById("time_diff").innerHTML = time_diff;
+
+  })
+
+
+  var commandRef = db.ref("/Command");
+  $("#test").click(function(){
+      commandRef.update({
+          '/Test':"on"
+      });
+  });
+
+  var commandRef = db.ref("/Command");
+  $("#endtest").click(function(){
+      commandRef.update({
+          '/Test':"off"
+      });
+  });
+
+</script>
